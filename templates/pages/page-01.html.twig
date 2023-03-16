@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Etape index{% endblock %}
+
+{% block body %}
+    <h1>Une feuille part en voyage</h1>
+<img src="images/1.png"/>
+<h2>Informations sur le livre gratuit</h2>
+    <ul>
+    <li>Original Publisher: Pratham </li>
+   <li> BooksAuthor: Anagha </li>
+    <li>KusumIllustrator: Anagha </li>
+    <li>KusumTranslator: Cyrille Largillier</li>
+    </ul>
+    <a href="{{ path('app_histoire_p2') }}">Lire la suite</a>
+{% endblock %}
